@@ -1,4 +1,8 @@
-name: Cargo
+name: Build
+
+on:
+  push:
+    branches: [main]
 
 jobs:
   test:
