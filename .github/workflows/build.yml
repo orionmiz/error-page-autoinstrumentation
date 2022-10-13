@@ -25,3 +25,12 @@ jobs:
       - name: Run build
         run: |
           npm run build
+      - name: Compress build files
+        run: zip -qq -r ./${{ matrix.is }}.zip .next
+        shell: bash
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: ${{ matrix.is }}
+          path: ./${{ matrix.is }}.zip
+        
