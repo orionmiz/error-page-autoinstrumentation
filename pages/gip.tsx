@@ -1,13 +1,13 @@
-export default function Page({ date }: { date: Date }) {
+export default function Page({ date }: { date: string }) {
   return (
     <div>
-      Today is {date.toDateString()}
+      Today is {date}
     </div>
   )
 }
 
 Page.getInitialProps = () => {
   return {
-    date: new Date()
+    date: '1'
   } 
 }
