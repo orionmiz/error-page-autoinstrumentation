@@ -1582,10 +1582,9 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-superjson-plugin@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/next-superjson-plugin/-/next-superjson-plugin-0.4.2.tgz#5c5798a707be8fde627176385f60942f42a3f1bd"
-  integrity sha512-ueqwt2J6yB578PQ8vS8Ns+zeZ7lX+EGtaw/3i4203p5J1REv746yWQog8I6M/nsESjogTpS+Kx83Fbe7F8yb+Q==
+"next-superjson-plugin@file:./next-superjson-plugin-0.4.3.tgz":
+  version "0.4.3"
+  resolved "file:./next-superjson-plugin-0.4.3.tgz#88ce42d2626bf9a8e54eb54e1fb44f8acc95fe5d"
   dependencies:
     hoist-non-react-statics "^3.3.2"
 
