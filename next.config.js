@@ -11,9 +11,9 @@ const moduleExports = {
      * Enable `superjson` experimental support for swc.
      */
     swcPlugins: [
-      [
-        // "next-superjson-plugin", {},
-      ],
+      // [
+      //   "next-superjson-plugin", {},
+      // ],
     ],
   },
   reactStrictMode: true,
