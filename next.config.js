@@ -12,7 +12,7 @@ const moduleExports = {
      */
     swcPlugins: [
       [
-        "next-superjson-plugin", {},
+        // "next-superjson-plugin", {},
       ],
     ],
   },
