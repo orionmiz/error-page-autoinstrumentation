@@ -26,9 +26,22 @@ jobs:
         run: |
           npm run build
         continue-on-error: true
-      - name: Upload a Build Artifact
+      - name: Upload a Build Artifact (ubuntu)
+        if: matrix.os == 'ubuntu-latest'
         uses: actions/upload-artifact@v3.1.0
         with:
           name: build
-          path: ./next
+          path: ./.next
+      - name: Upload a Build Artifact (windows)
+        if: matrix.os == 'windows-latest'
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: build
+          path: ./.next
+      - name: Upload a Build Artifact (macos)
+        if: matrix.os == 'macos-latest'
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: build
+          path: ./.next
         
