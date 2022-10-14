@@ -11,7 +11,7 @@
   "dependencies": {
     "@sentry/nextjs": "^7.14.2",
     "next": "12.3.1",
-    "next-superjson-plugin": "file:./next-superjson-plugin-0.4.3.tgz",
+    "next-superjson-plugin": "0.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "superjson": "^1.10.0"
